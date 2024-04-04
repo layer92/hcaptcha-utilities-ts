@@ -1,0 +1,35 @@
+{
+  "name": "@layer92/hcaptcha-utilities",
+  "version": "1.0.0",
+  "description": "",
+  "types": "compiled/index.d.ts",
+  "files": [
+    "compiled"
+  ],
+  "scripts": {
+    "test": "mocha --bail --timeout 10000 --require ts-node/register --extensions ts --watch '*.test.ts'"
+  },
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layer92/hcaptcha-utilities-ts.git"
+  },
+  "author": "layer92",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/layer92/hcaptcha-utilities-ts/issues"
+  },
+  "homepage": "https://github.com/layer92/hcaptcha-utilities-ts#readme",
+  "dependencies": {
+    "@layer92/axios-utilities": "git+https://github.com/layer92/axios-utilities-ts.git",
+    "@layer92/core": "git+https://github.com/layer92/core-ts.git",
+    "@types/axios": "0.14.0",
+    "@types/mocha": "10.0.3",
+    "@types/node": "20.8.6",
+    "axios": "1.6.0",
+    "mocha": "10.2.0",
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.2.2"
+  }
+}

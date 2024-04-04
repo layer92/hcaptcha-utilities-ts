@@ -1,0 +1,15 @@
+{
+  "exclude":[
+    "node_modules",
+    "dist",
+    "**/*.test.ts"
+  ],
+  "compilerOptions":{
+    "target":"es2020",
+    "module":"commonjs",
+    "outDir":"./dist",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+  }
+}
