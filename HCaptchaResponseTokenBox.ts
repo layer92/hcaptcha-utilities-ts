@@ -1,4 +1,4 @@
-import { Box } from "away-core";
+import { Box } from "@layer92/core";
 
 /** A token that is generated client-side when the user submits their challenge to hCaptcha. Used to verify the client's humanity. */
 export class HCaptchaResponseTokenBox extends Box<string>{
