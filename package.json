@@ -1,6 +1,6 @@
 {
   "name": "@layer92/hcaptcha-utilities",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "compiled/index.js",
   "types": "compiled/index.d.ts",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/layer92/hcaptcha-utilities-ts#readme",
   "dependencies": {
-    "@layer92/axios-utilities": "git+https://github.com/layer92/axios-utilities-ts.git",
+    "@layer92/axios-utilities-console": "github:layer92/axios-utilities-console-ts",
     "@layer92/core": "git+https://github.com/layer92/core-ts.git",
     "@types/axios": "0.14.0",
     "@types/mocha": "10.0.3",
