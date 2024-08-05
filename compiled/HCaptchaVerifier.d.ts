@@ -1,17 +1,15 @@
-import { HCaptchaSecretBox } from "./HCaptchaSecretBox";
-import { HCaptchaResponseTokenBox } from "./HCaptchaResponseTokenBox";
-import { OnAxiosHttpError } from "@layer92/axios-utilities";
+import { OnAxiosHttpError } from "@layer92/axios-utilities-console";
 export declare class HCaptchaVerifier {
     private readonly _secret;
     private readonly _axios;
-    constructor(_secret: HCaptchaSecretBox);
+    constructor(_secret: string);
     /**
      *
      * @param param0.onHttpError a callback if the web request to the hcaptcha server fails
      * @returns
      */
-    verify_isSuccessfulAsync({ tokenBox, onHttpError }: {
-        tokenBox: HCaptchaResponseTokenBox;
+    verify_isSuccessfulAsync({ token, onHttpError }: {
+        token: string;
         onHttpError?: OnAxiosHttpError;
     }): Promise<boolean>;
 }
