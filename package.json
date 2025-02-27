@@ -24,13 +24,15 @@
   "dependencies": {
     "@layer92/axios-utilities-console": "github:layer92/axios-utilities-console-ts",
     "@layer92/core": "git+https://github.com/layer92/core-ts.git",
+    "axios": "1.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.2.2",
     "@types/axios": "0.14.0",
     "@types/mocha": "10.0.3",
     "@types/node": "20.8.6",
-    "axios": "1.6.0",
-    "mocha": "10.2.0",
-    "ts-node": "10.9.1",
-    "ts-node-dev": "2.0.0",
-    "typescript": "5.2.2"
+    "mocha": "10.2.0"
   }
 }
